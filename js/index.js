@@ -41,23 +41,18 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-let A1 = document.getElementsByTagName("a");
-A1[0].textContent(siteContent["nav"]["nav-item-1"])
+let A = document.getElementsByTagName("a");
+A[0].textContent(siteContent["nav"]["nav-item-1"])
 
-let A3 = document.getElementsByTagName("a");
-A2[1].textContent(siteContent["nav"]["nav-item-2"])
+A[1].textContent(siteContent["nav"]["nav-item-2"])
 
-let A3 = document.getElementsByTagName("a");
-A3[2].textContent(siteContent["nav"]["nav-item-3"])
+A[2].textContent(siteContent["nav"]["nav-item-3"])
 
-let A4 = document.getElementsByTagName("a");
-A4[3].textContent(siteContent["nav"]["nav-item-4"])
+A[3].textContent(siteContent["nav"]["nav-item-4"])
 
-let A5 = document.getElementsByTagName("a");
-A5[4].textContent(siteContent["nav"]["nav-item-5"])
+A[4].textContent(siteContent["nav"]["nav-item-5"])
 
-let A6 = document.getElementsByTagName("a");
-A6[5].textContent(siteContent["nav"]["nav-item-6"])
+A[5].textContent(siteContent["nav"]["nav-item-6"])
 
 let headerUno = document.getElementsByTagName("h1");
 headerUno[0].textContent(siteContent["cta"]["h1"])
@@ -67,3 +62,38 @@ firstButton[0].textContent(siteContent["cta"]["button"])
 
 let ctaImage = document.getElementById("cta-img");
 ctaImage.setAttribute('src', siteContent["cta"]["img-src"])
+
+let headerQuatro = document.getElementsByTagName("h4");
+headerQuatro[0].textContent(siteContent["main-content"]["features-h4"])
+
+headerQuatro[1].textContent(siteContent["main-content"]["about-h4"])
+
+headerQuatro[2].textContent(siteContent["main-content"]["services-h4"])
+
+headerQuatro[3].textContent(siteContent["main-content"]["product-h4"])
+
+headerQuatro[4].textContent(siteContent["main-content"]["vision-h4"])
+
+headerQuatro[5].textContent(siteContent["contact"]["contact-h4"])
+
+let tagP = document.getElementsByTagName("p");
+tagP[0].textContent(siteContent["main-content"]["features-content"])
+
+tagP[1].textContent(siteContent["main-content"]["about-content"])
+
+tagP[2].textContent(siteContent["main-content"]["services-content"])
+
+tagP[3].textContent(siteContent["main-content"]["product-content"])
+
+tagP[4].textContent(siteContent["main-content"]["vision-content"])
+
+tagP[5].textContent(siteContent["contact"]["address"])
+
+tagP[6].textContent(siteContent["contact"]["phone"])
+
+tagP[7].textContent(siteContent["contact"]["email"])
+
+tagP[8].textContent(siteContent["footer"]["copyright"])
+
+let mainImage = document.getElementById("middle-image");
+mainImage.setAttribute('src', siteContent["main-content"]["middle-img-src"])
