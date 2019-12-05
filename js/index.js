@@ -61,3 +61,9 @@ A6[5].textContent(siteContent["nav"]["nav-item-6"])
 
 let headerUno = document.getElementsByTagName("h1");
 headerUno[0].textContent(siteContent["cta"]["h1"])
+
+let firstButton = document.getElementsByTagName("button");
+firstButton[0].textContent(siteContent["cta"]["button"])
+
+let ctaImage = document.getElementById("cta-img");
+ctaImage.setAttribute('src', siteContent["cta"]["img-src"])
